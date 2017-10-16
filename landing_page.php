@@ -20,7 +20,7 @@ Template Name: Landing Page
 
     </section>
 
-    <section class="light-blue darken-2">
+    <section class="blue-grey darken-4">
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     <div class="container white-text flow-text">
 
