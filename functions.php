@@ -3,8 +3,8 @@
 
 function wpbootstrap_scripts_with_jquery()
 {
-         wp_deregister_script( 'jquery' );
-    wp_register_script( 'jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js', array(), null, false );
+	wp_deregister_script( 'jquery' );
+    wp_register_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js', array(), null, false );
 	// Register the script like this for a theme:
 	wp_register_script( 'custom-script', get_template_directory_uri() . '/js/materialize.js', array( 'jquery' ) );	
 	wp_enqueue_script( 'script-name', get_template_directory_uri() . '/js/particles.js', array(), '1.0.0', true );
