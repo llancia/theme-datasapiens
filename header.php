@@ -18,7 +18,7 @@
     </head>
     <body>
         <div class="navbar-fixed hide-on-med-and-down">
-        <nav class="grey darken-2" role="navigation">
+        <nav class="red" role="navigation">
             <div class="nav-wrapper container contlargo">
             <a  class ="brand-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>    
 
